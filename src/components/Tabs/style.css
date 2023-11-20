@@ -1,0 +1,62 @@
+.tabContainer {
+    display: flex;
+    gap:30px;
+    background-color:gray;
+    color:white;
+    width:500px;
+    padding:10px;
+    position: relative;
+    overflow-x: scroll;
+ 
+
+
+}
+
+.tabContainer::-webkit-scrollbar{
+    display: none;
+}
+
+.btn {
+    position: sticky;
+    left:0px;
+    top:0px;
+    height:100%;
+    width:100px;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+.btn-right {
+    position: sticky;
+    height:100%;
+    width:100px;
+    top:0px;
+    background-color: linear-gradient(to left, #000 50%, transparent);
+
+    right:0px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.tab {
+
+white-space: nowrap;
+    cursor: pointer;
+  
+}
+.tab:first-child {
+    display: flex;
+    gap:5px;
+}
+
+.tabs {
+    display: block;
+
+}
+
+.active {
+    border-bottom: 4px solid blue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
