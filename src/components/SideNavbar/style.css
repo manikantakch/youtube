@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+
+}
+
+main {
+    width:100%;
+    padding:20px;
+}
+
+.top-selection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:20px 15px;
+}
+
+.bars {
+    margin-left: 40%;
+    font-size: 24px;
+}
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60px;
+    font-size: 22px;
+    padding: 10px 10px 20px;
+    gap:15px;
+    transition: all 0.5s;
+    border-radius:20px;
+}
+
+.link-text {
+    margin-left: 15px;
+}
+
+.active {
+    background-image: linear-gradient(to top,#5930e6,#6177fe);
+    border-radius:20px;
+    color:white;
+}
+
+.logo {
+    font-size:30px;
+}
+
+.side-bar {
+    background-color: white;
+    height:100vh;
+    color:#000;
+    box-shadow:-3px 0 5px 0 #555;
+   transition: all 0.5s;
+
+
+}
