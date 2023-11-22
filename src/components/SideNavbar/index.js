@@ -55,7 +55,7 @@ const SideNavbar = ({children}) => {
         {
           menuItems.map((item,index) => (
             <NavLink key={index}  to={item.path} className={"link"} activeClassname="active">
-              <div className='icon'>{item.icon}</div>
+              <div style={{marginLeft : toggle ? "5px" : "10px"}} className='icon'>{item.icon}</div>
               <div style={{display : toggle ? "none" : "block"}} className='link-text'>{item.name}</div>
               
               </NavLink>
