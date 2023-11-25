@@ -110,6 +110,8 @@ function App() {
   // <Tabs tabList={tabList}/> 
 
   return (
+ 
+    
 //     <div >
       
 //    <h1 className='underline'>namaster js</h1>
@@ -130,10 +132,10 @@ function App() {
 
 </Routes>
 </SideNavbar>
-</BrowserRouter>
+</BrowserRouter> 
 
-
-  );
+  )
+ 
 }
 
 export default App;
